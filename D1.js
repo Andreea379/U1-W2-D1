@@ -61,7 +61,8 @@ console.log(myName);*/
 */
 
 let numero = 4;
-console.log(numero - x);
+let differenza = numero - x;
+console.log(differenza);
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -70,4 +71,11 @@ console.log(numero - x);
 */
 let name1 = "john";
 let name2 = "John";
-console.log(name1===name2);
+console.log("i due nomi sono uguali:", name1 === name2);
+
+let name1LowerCase = name1.toLowerCase;
+let name2LowerCase = name2.toLowerCase;
+console.log(
+  "in lowercase i due nomi sono uguali:",
+  name1LowerCase === name2LowerCase
+);
